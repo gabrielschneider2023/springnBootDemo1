@@ -1,0 +1,15 @@
+## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://197.6.2.21:3306/example?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: Salt2018@!
+
+
+## Mybatis
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: org.example.entity
+  configuration.map-underscore-to-camel-case: true
+
